@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
       text-align: center;
-      background: #0a0a0a url('background.png') no-repeat center center fixed;
+      background: url('background.png') no-repeat center center fixed;
       background-size: cover;
       color: white;
     }
@@ -23,35 +23,21 @@
       display: block;
       margin: 0 auto 10px;
     }
+    nav a {
+      color: #00e6e6;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     section {
-      padding: 30px;
+      padding: 40px;
       background: rgba(0,0,0,0.6);
       margin: 20px;
       border-radius: 8px;
     }
-    h2 {
-      color: #00e6e6;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin: 8px 0;
-    }
-    button {
-      background: #00e6e6;
-      color: black;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-      margin-top: 20px;
-    }
     footer {
       background: rgba(0,0,0,0.8);
-      padding: 15px;
+      padding: 20px;
       font-size: 0.9em;
     }
   </style>
@@ -61,23 +47,27 @@
     <img src="logo.png" alt="ABCTechWorx Logo" />
     <h1>Welcome to ABCTechWorx</h1>
     <p>Tech solutions made simple</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
   </header>
 
   <section>
     <h2>About Us</h2>
-    <p>Affordable IT support and digital solutions for residential clients.</p>
+    <p>We provide affordable tech support, web services, and digital solutions for small businesses and residential clients.</p>
   </section>
 
   <section>
     <h2>Our Services</h2>
-    <h3>Level 1 IT Support</h3>
+    <h3>Level 1 IT Support (Residential)</h3>
     <ul>
       <li>Virus & malware removal</li>
       <li>Software installation & updates</li>
       <li>Basic troubleshooting</li>
     </ul>
 
-    <h3>Level 2 IT Support</h3>
+    <h3>Level 2 IT Support (Residential)</h3>
     <ul>
       <li>Hardware setup & upgrades</li>
       <li>Advanced troubleshooting</li>
@@ -85,15 +75,8 @@
     </ul>
   </section>
 
-  <section>
-    <h2>Contact Us</h2>
-    <p>Have a question or need support?</p>
-    <a href="mailto:info@abctechworx.net">
-      <button>Email Us</button>
-    </a>
-  </section>
-
   <footer>
+    <p>Contact us: info@abctechworx.net</p>
     <p>&copy; 2025 ABCTechWorx</p>
   </footer>
 </body>
